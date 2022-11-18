@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  nginx_primary:
+    image: nginx:stable
+    ports:
+     - "8080:80"
+    environment:
+      - NGINX_PORT=80
+
